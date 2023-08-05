@@ -8,7 +8,7 @@ subtitle: ""
 description: ""
 keywords:
 author: 述之
-language: en
+language: zh-CN
 timezone: ""
 
 # URL
@@ -97,9 +97,22 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: oranges
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ""
+
+# 图片懒加载
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional
+
+# 全文搜索
+search:
+  path: search.xml
+  field: post
+  content: true
