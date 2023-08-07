@@ -27,7 +27,7 @@ favicon:
 # 用户头像与昵称
 avatar:
   author_photo: /images/avatar.png
-  author_nickname: Oranges
+  author_nickname: 述之
   path: /
 
 # Google 分析
@@ -79,27 +79,27 @@ comments:
 
 # 主题页面导航栏
 navbar:
-  - name: Home
+  - name: 主页
     enable: true
     path: /
     key: home
-  - name: Archives
+  - name: 归档
     enable: true
     path: /archives/
     key: archives
-  - name: Categories
+  - name: 分类
     enable: false
     path: /categories/
     key: categories
-  - name: Tags
+  - name: 标签
     enable: true
     path: /tags/
     key: tags
-  - name: Friends
-    enable: true
+  - name: 朋友
+    enable: false
     path: /friends/
     key: friends
-  - name: About
+  - name: 关于
     enable: true
     path: /about/
     key: about
@@ -117,9 +117,6 @@ friends:
   # nickname: 昵称
   # site: 地址
   # meta: 描述
-  - nickname: Zcheng
-    site: https://zcheng.site/
-    meta:
   - nickname: Hexo
     site: https://hexo.io/
     meta:
@@ -136,7 +133,7 @@ footer:
     # 按需取消注释以启用
     - name: github
       icon: github
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      path: https://github.com/shuzhiweb/shuzhiweb.github.io
     # -
     #   name: email
     #   icon: envelope
@@ -168,10 +165,10 @@ footer:
     # 支持变量显示，可自定义扩展，具体见主题/layout/_partial/footer.ejs
     # 一般用来显示根据各种场景需要切换的文本，如时间年份
     # 如：{thisYear} 会被替换为今年年份
-    - name: Copyright © {thisYear} Oranges
-      path: https://github.com/zchengsite/hexo-theme-oranges
-    - name: Theme by Oranges | Powered by Hexo
-      path: https://github.com/zchengsite/hexo-theme-oranges
+    - name: ©{thisYear} 述之
+      path: https://github.com/shuzhiweb
+    - name: 湘ICP备2023018255号-1
+      path: https://beian.miit.gov.cn
 
   # 浏览量统计
   # http://busuanzi.ibruce.info/
@@ -215,7 +212,7 @@ postShare:
 codeBlock:
   # 代码块风格，默认normal
   # 可选：默认风格'normal'；mac黑色风格：'mac-black'
-  style: "normal"
+  style: "mac-black"
   # 代码复制
   copy:
     enable: true
@@ -246,7 +243,7 @@ cdns:
 
   # 代码块复制
   clipboard:
-    enable: false
+    enable: true
     url: https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js
 
   # 评论系统
